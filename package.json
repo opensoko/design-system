@@ -1,0 +1,24 @@
+{
+  "name": "design-system",
+  "version": "0.0.1",
+  "description": "Opensoko Design System for web and mobile apps",
+  "main": "dist/index.js",
+  "repository": "https://github.com/opensoko/design-system",
+  "author": "Eugene Rwagasore <eugene@opensoko.com>",
+  "license": "BSD 2-Clause License",
+  "private": true,
+  "dependencies": {
+    "chroma-js": "^1.3.7",
+    "prop-types": "^15.6.2",
+    "styled-system": "^3.0.2",
+    "system-components": "^3.0.0"
+  },
+  "devDependencies": {
+    "@compositor/x0": "^6.0.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "scripts": {
+    "start": "x0 docs -op 9000"
+  }
+}

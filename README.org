@@ -1,2 +1,3 @@
 * Opensoko Design System
-  Opensoko design system for web and mobile application development
+  Opensoko design system for web and mobile application development using ReactJS
+  It is heavily inspired by Rebass library.

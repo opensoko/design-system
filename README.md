@@ -1,11 +1,13 @@
+
 # Table of Contents
 
-1.  [Opensoko Design System](#org91274e4)
+1.  [Opensoko Design System](#org98563d0)
 
 
-<a id="org91274e4"></a>
+<a id="org98563d0"></a>
 
 # Opensoko Design System
 
-Opensoko design system for web and mobile application development
+Opensoko design system for web and mobile application development using ReactJS
+It is heavily inspired by Rebass library.
 

@@ -1,6 +1,8 @@
 import sys from 'system-components'
 import { style } from 'styled-system'
 
+import { Border } from './Border'
+
 
 const bgImage = style({
   prop: 'image',
@@ -9,19 +11,20 @@ const bgImage = style({
   getter: n => `url(${n})`
 })
 
-
-export const BackgroundImage = sys({
-  width: 1,
-  ratio: 3/4,
-  backgroundSize: 'cover',
-  backgroundPosition: 'center'
+export const BackgroundImage = sys(
+  {
+    is: Border,
+    ratio: 3/4,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center'
   },
   bgImage,
+
+  // background
   'ratio',
   'backgroundSize',
   'backgroundPosition',
-  'space',
-  'color'
+  'backgroundRepeat'
 )
 
 

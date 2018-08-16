@@ -1,7 +1,7 @@
 import {
 Flex, Box, Border, BackgroundImage,
 Lead, Title, Heading, Text, Large, Normal, Small, Blockquote,
-Image, Avatar
+Icon, Image, Avatar
 } from '../src'
 
 # Opensoko Design System
@@ -164,13 +164,20 @@ Image is a representation of a traditional image tag with display block
 
 <Image src="https://images.unsplash.com/photo-1470114888332-5bcd36dd1940" />
 
+## Icon
+Icons are svg paths designed to represent a given identity an a pictorial style.
+All icons are stored on a single .svg file and each Icon is given an id.
+
+<Flex>
+  <Box w={1/12}><Icon name="user" /><Icon name="user" filled /></Box>
+</Flex>
 
 
 ## Avatar
 An avatar is an image relatively small in many cases representing a personality of an individual on any entity worth of representation.
 
 <Flex>
-  <Box w={4/12}><Heading pt={1}>Avatar with image</Heading></Box>
+  <Box w={4/12}><Heading pt={1}>Avatar with imageb</Heading></Box>
   <Box ml="auto" w={1/12}>
     <Avatar>
       <img height="100%"
@@ -202,7 +209,19 @@ An avatar is an image relatively small in many cases representing a personality 
 <Flex>
   <Box w={4/12}><Heading pt={1}>Avatar without image</Heading></Box>
   <Box ml="auto" w={1/12}><Avatar borderRadius={4}>A</Avatar></Box>
-  <Box w={1/12}><Avatar borderRadius={8}>V</Avatar></Box>
+  <Box w={1/12}><Avatar bg="#56CCF2" borderRadius={8}>V</Avatar></Box>
   <Box w={1/12}><Avatar borderRadius={16}>A</Avatar></Box>
-  <Box w={1/12}><Avatar>T</Avatar></Box>
+  <Box w={1/12}><Avatar bg="#56CCF2">T</Avatar></Box>
+</Flex>
+
+---
+
+<Flex>
+  <Box w={4/12}><Heading pt={1}>Avatar with icon</Heading></Box>
+  <Box ml="auto" w={1/12}><Avatar bg="#56CCF2"><Icon name="user" height={16} /></Avatar></Box>
+  <Box w={1/12}><Avatar borderRadius={16}><Icon name="user" height={16} filled /></Avatar></Box>
+  <Box w={1/12}><Avatar bg="#56CCF2" borderRadius={8}>
+    <Icon name="user" height={16} filled />
+  </Avatar></Box>
+  <Box w={1/12}><Avatar borderRadius={4}><Icon name="user" height={16} /></Avatar></Box>
 </Flex>

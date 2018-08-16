@@ -16,7 +16,8 @@
   "devDependencies": {
     "@compositor/x0": "^6.0.3",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react-dom": "^16.4.2",
+    "svg-sprite-loader": "^3.8.0"
   },
   "x0": {
     "static": true,

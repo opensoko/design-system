@@ -169,7 +169,13 @@ Icons are svg paths designed to represent a given identity an a pictorial style.
 All icons are stored on a single .svg file and each Icon is given an id.
 
 <Flex>
-  <Box w={1/12}><Icon name="user" /><Icon name="user" filled /></Box>
+  <Box>
+    <Icon name="user" align="bottom" />
+    <Icon name="user" height={32} align="bottom" filled />
+    <Icon name="user" height={48} align="bottom" />
+    <Icon name="user" height={56} align="bottom" filled />
+    <Icon name="user" height={64} align="bottom" />
+  </Box>
 </Flex>
 
 
@@ -177,7 +183,17 @@ All icons are stored on a single .svg file and each Icon is given an id.
 An avatar is an image relatively small in many cases representing a personality of an individual on any entity worth of representation.
 
 <Flex>
-  <Box w={4/12}><Heading pt={1}>Avatar with imageb</Heading></Box>
+  <Box w={4/12}><Heading pt={1}>Avatar with text</Heading></Box>
+  <Box ml="auto" w={1/12}><Avatar borderRadius={4}>A</Avatar></Box>
+  <Box w={1/12}><Avatar bg="#56CCF2" borderRadius={8}>V</Avatar></Box>
+  <Box w={1/12}><Avatar borderRadius={16}>A</Avatar></Box>
+  <Box w={1/12}><Avatar bg="#56CCF2">T</Avatar></Box>
+</Flex>
+
+---
+
+<Flex>
+  <Box w={4/12}><Heading pt={1}>Avatar with image</Heading></Box>
   <Box ml="auto" w={1/12}>
     <Avatar>
       <img height="100%"
@@ -202,16 +218,6 @@ An avatar is an image relatively small in many cases representing a personality 
         src="https://images.unsplash.com/photo-1521279106736-79df8ae0c183?fit=crop&w=48&h=48&q=100" />
     </Avatar>
   </Box>
-</Flex>
-
----
-
-<Flex>
-  <Box w={4/12}><Heading pt={1}>Avatar without image</Heading></Box>
-  <Box ml="auto" w={1/12}><Avatar borderRadius={4}>A</Avatar></Box>
-  <Box w={1/12}><Avatar bg="#56CCF2" borderRadius={8}>V</Avatar></Box>
-  <Box w={1/12}><Avatar borderRadius={16}>A</Avatar></Box>
-  <Box w={1/12}><Avatar bg="#56CCF2">T</Avatar></Box>
 </Flex>
 
 ---

@@ -169,12 +169,17 @@ Icons are svg paths designed to represent a given identity an a pictorial style.
 All icons are stored on a single .svg file and each Icon is given an id.
 
 <Flex>
-  <Box>
-    <Icon name="user" align="bottom" />
-    <Icon name="user" height={32} align="bottom" filled />
-    <Icon name="user" height={48} align="bottom" />
-    <Icon name="user" height={56} align="bottom" filled />
-    <Icon name="user" height={64} align="bottom" />
+  <Box mr="auto">
+    <Icon name="arrow_up" />
+    <Icon name="arrow_up" filled />
+    <Icon name="arrow_down" />
+    <Icon name="arrow_down" filled />
+  </Box>
+  <Box ml="auto">
+    <Icon name="arrow_left" height={16} />
+    <Icon name="arrow_left" height={16} filled />
+    <Icon name="arrow_right" height={16} />
+    <Icon name="arrow_right" height={16} filled />
   </Box>
 </Flex>
 

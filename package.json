@@ -22,7 +22,7 @@
   "x0": {
     "static": true,
     "outDir": "dist",
-    "title": "Opensoko Design System"
+    "title": "Design System"
   },
   "scripts": {
     "start": "x0 docs -op 9000"

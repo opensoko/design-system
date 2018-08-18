@@ -4,7 +4,7 @@ Lead, Title, Heading, Text, Large, Normal, Small, Blockquote,
 Icon, Image, Avatar
 } from '../src'
 
-# Opensoko Design System
+# Design System
 ---
 ## Installation
 From the root of the project run the command below to install from package.json file
@@ -67,11 +67,11 @@ visual effects like shadow. Border inherits from Box component properties.
 <Flex>
   <Box w={1/2} pr={8}>
     <Border w={1} p={128} bg="#0083FF" borderRadius={8} boxShadow={[
-              "0 4px 4px rgba(0, 0, 0, .1)", 
-              "0 8px 8px rgba(0, 0, 0, .1)", 
-              "0 16px 16px rgba(0, 0, 0, .1)", 
-              "0 32px 32px rgba(0, 0, 0, .15)", 
-              "0 64px 64px rgba(0, 0, 0, .15)"]} />
+              "0 4px 4px rgba(0, 0, 0, .08)",
+              "0 8px 8px rgba(0, 0, 0, .08)",
+              "0 16px 16px rgba(0, 0, 0, .08)",
+              "0 32px 32px rgba(0, 0, 0, .16)",
+              "0 64px 64px rgba(0, 0, 0, .16)"]} />
   </Box>
   <Box w={1/2} pl={8}>
     <Border w={1} p={128} bg="#56CCF2" borderRadius={8} />
@@ -92,11 +92,11 @@ Since BackgroundImage inherits from Border we have access to all Borders propert
   <Box w={1/2} pl={8}>
     <BackgroundImage
       borderRadius={8}
-      boxShadow={["0 4px 4px rgba(0, 0, 0, .1)", 
-                   "0 8px 8px rgba(0, 0, 0, .1)", 
-                   "0 16px 16px rgba(0, 0, 0, .1)", 
-                   "0 32px 32px rgba(0, 0, 0, .15)", 
-                   "0 64px 64px rgba(0, 0, 0, .15)"]}
+      boxShadow={["0 4px 4px rgba(0, 0, 0, .08)",
+                   "0 8px 8px rgba(0, 0, 0, .08)",
+                   "0 16px 16px rgba(0, 0, 0, .08)",
+                   "0 32px 32px rgba(0, 0, 0, .16)",
+                   "0 64px 64px rgba(0, 0, 0, .16)"]}
       src="https://images.unsplash.com/photo-1506269421513-e7dc9a2003af" />
   </Box>
 </Flex>
@@ -169,7 +169,7 @@ Icons are svg paths designed to represent a given identity an a pictorial style.
 All icons are stored on a single .svg file and each Icon is given an id.
 
 <Flex>
-  <Box mr="auto">
+  <Box>
     <Icon name="arrow_up" />
     <Icon name="arrow_up" filled />
     <Icon name="arrow_down" />

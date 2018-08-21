@@ -7,6 +7,7 @@ export const Large = sys(
   {
     is: Text,
     fontSize: '1.3125em',
+    fontFamily: 'inherit',
     lineHeight: 1.4
   }
 )

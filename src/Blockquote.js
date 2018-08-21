@@ -9,7 +9,7 @@ import Normal from './Normal'
 export const BlockquoteBox = sys(
   {
     is: Border,
-    borderLeft: 2,
+    borderLeft: 1,
     borderColor: 'gray'
   }
 )

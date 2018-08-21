@@ -7,6 +7,7 @@ export const Small = sys(
   {
     is: Text,
     fontSize: '0.75em',
+    fontFamily: 'inherit',
     lineHeight: 1.4
   }
 )

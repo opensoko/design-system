@@ -16,6 +16,7 @@ export const Box = sys(
   'space',
   'color',
   'fontSize',
+  'fontFamily',
 
   // flexbox
   'order',

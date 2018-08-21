@@ -19,7 +19,7 @@ export const systemColors = {
 export const colors = { ...defaultColors, ...systemColors }
 
 export const radii = [ 0, 2, 4, 8]
-export const borders: [0, '1px solid', '2px solid']
+export const borders = [0, '1px solid', '2px solid']
 
 export const fonts = {
   0: 'system-ui, sans-serif',
@@ -27,14 +27,7 @@ export const fonts = {
   mono: '"SF Mono", "Roboto Mono", Menlo, monospace'
 }
 
-export const shadows = [
-  'none',
-  '0 4px 4px rgba(0, 0, 0, .08), 0 8px 8px rgba(0, 0, 0, .08), 0 16px 16px rgba(0, 0, 0, .08)',
-  '0 4px 4px rgba(0, 0, 0, .08), 0 8px 8px rgba(0, 0, 0, .08), 0 16px 16px rgba(0, 0, 0, .08), 
-  0 32px 32px rgba(0, 0, 0, .16)',
-  '0 4px 4px rgba(0, 0, 0, .08), 0 8px 8px rgba(0, 0, 0, .08), 0 16px 16px rgba(0, 0, 0, .08), 
-  0 32px 32px rgba(0, 0, 0, .16), 0 64px 64px rgba(0, 0, 0, .16)'
-]
+export const shadows = ["none","0 4px 4px rgba(0,0,0,.08), 0 8px 8px rgba(0,0,0,.08), 0 16px 16px rgba(0,0,0,.08)", "0 4px 4px rgba(0,0,0,.08), 0 8px 8px rgba(0,0,0,.08), 0 16px 16px rgba(0,0,0,.08), 0 32px 32px rgba(0,0,0,.16)", "0 4px 4px rgba(0,0,0,.08), 0 8px 8px rgba(0,0,0,.08), 0 16px 16px rgba(0,0,0,.08), 0 32px 32px rgba(0,0,0,.16), 0 64px 64px rgba(0,0,0,.16)"]
 
 
 export default {

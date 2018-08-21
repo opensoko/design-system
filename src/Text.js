@@ -3,7 +3,8 @@ import sys from 'system-components'
 
 export const Text = sys(
   {
-    m: 0
+    m: 0,
+    fontFamily: 'inherit'
   },
   'space',
   'color',

@@ -15,6 +15,7 @@ export const Box = sys(
   'width',
   'space',
   'color',
+  'height',
   'fontSize',
   'fontFamily',
 

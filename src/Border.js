@@ -15,7 +15,7 @@ export const Border = sys(
   {
     is: Box,
     overflow: 'hidden',
-    blacklist: ['borderRadius', 'boxShadow']
+    blacklist: ['borderRadius', 'borderColor', 'boxShadow']
   },
   overflow,
 

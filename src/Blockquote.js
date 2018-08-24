@@ -6,24 +6,15 @@ import Large from './Large'
 import Normal from './Normal'
 
 
-export const BlockquoteBox = sys(
+export const Blockquote = sys(
   {
     is: Border,
+    pl: 4,
+    my: 4,
     borderLeft: 1,
-    borderColor: 'gray'
+    borderColor: 'gainsboro'
   }
 )
-
-
-export const Blockquote = ({cite, children, ...rest}) => {
-  return (
-    <BlockquoteBox pl={16} my={32} {...rest}>
-      <Large py={8}>{children}</Large>
-      <Normal py={8} color="darkgray">{cite}</Normal>
-    </BlockquoteBox>
-  )
-}
-
 
 Blockquote.displayName = 'Blockquote'
 

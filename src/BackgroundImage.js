@@ -27,7 +27,6 @@ export const BackgroundImage = sys(
   'backgroundRepeat'
 )
 
-
 BackgroundImage.displayName = 'BackgroundImage'
 
 

@@ -4,6 +4,7 @@ import sys from 'system-components'
 export const Position = sys(
   'space',
   'color',
+  'width',
   'zIndex',
   'top',
   'right',

@@ -14,7 +14,7 @@ export const getViewBox = (dimension, x=0, y=0) => {
 
 export const SVG = sys(
   {
-    is: 'svg'
+    is: 'svg',
   },
   'space', 'color', 'width', 'height',
   props => ({

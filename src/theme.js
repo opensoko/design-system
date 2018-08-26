@@ -23,8 +23,8 @@ export const borders = [0, '1px solid', '2px solid']
 
 export const fonts = {
   0: 'Maax, system-ui, sans-serif',
-  sans: 'system-ui, sans-serif',
-  mono: '"SF Mono", "Roboto Mono", Menlo, monospace'
+  sans: 'Maax, system-ui, sans-serif',
+  mono: '"PragmataPro", "Roboto Mono", Menlo, monospace'
 }
 
 export const shadows = ["none","0 0px 2px rgba(0,0,0,.08), 0 8px 8px rgba(0,0,0,.08), 0 16px 16px rgba(0,0,0,.08)", "0 0px 2px rgba(0,0,0,.08), 0 8px 8px rgba(0,0,0,.08), 0 16px 16px rgba(0,0,0,.08), 0 32px 32px rgba(0,0,0,.16)", "0 0px 2px rgba(0,0,0,.08), 0 8px 8px rgba(0,0,0,.08), 0 16px 16px rgba(0,0,0,.08), 0 32px 32px rgba(0,0,0,.16), 0 64px 64px rgba(0,0,0,.16)"]

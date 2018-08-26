@@ -7,7 +7,8 @@ export const Link = sys(
     color: 'inherit'
   },
   {
-    'text-decoration': 'none'
+    'text-decoration': 'none',
+    'display': 'inline-block'
   },
   'space'
 )
